@@ -15,7 +15,9 @@
     "prepare": "lerna run prepare",
     "start": "webpack-dev-server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cartesian": "~1.0.1"
+  },
   "devDependencies": {
     "@std/esm": "^0.11.3",
     "babel-core": "^7.0.0-beta.2",
